@@ -111,6 +111,8 @@ class singlyLinkedList{
 
         }
 
+        return -1;
+
     }
 
     searchByIndex(index){
@@ -367,8 +369,6 @@ sll.addAtBegin(ele);
 let element = prompt("Enter Element At Begin : ");
 sll.addAtBegin(element);
 
-
-sll.addAtBegin(10);
 sll.addAtBegin(90);
 
 console.log("All Elements are : ");
@@ -417,7 +417,6 @@ console.log("All Elements are : ");
 sll.displayAllNodes();
 
 
-console.log("<br>");
 console.log("For Merging Two List : ");
 let n = prompt("Enter Size of Second List : ");
 let elementn;
@@ -449,7 +448,7 @@ let findindex = prompt("Enter Element To Find it's Position : ");
 console.log(findindex + " is Present at Index : " + sll.indexOf(findindex));
 
 sll.clearAll();
-console.log("List Is Empty : " + sll.isEmpty())
+console.log("List Is Empty : " + sll.isEmpty());
 
 
 
